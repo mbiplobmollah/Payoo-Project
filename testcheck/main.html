@@ -42,9 +42,9 @@
                     <img class="mx-auto w-8" src="assets/bonus1.png" alt="">
                     <h3>Get Bonus</h3>
                 </div>
-                <div class="box border border-black p-4 text-center rounded-md">
+                <div id="transaction" class="box border border-black p-4 text-center rounded-md">
                     <img class="mx-auto w-8" src="assets/transaction1.png" alt="">
-                    <h3>Transaction History</h3>
+                    <h3 id="transaction-money" >Transaction History</h3>
                 </div>
             </div>
             <section id="add-money">
@@ -128,6 +128,10 @@
                 </div>
               </div>
             </section>
+            <section id="transaction-history">
+              <h1 class="text-3xl font-bold text-center text-red-400 p-3">Transaction History</h1>
+
+            </section>
         </section>
         </header>
     </section>
@@ -135,6 +139,7 @@
     <script src="script/addmoney.js"></script>
     <script src="utilities/toggle.js"></script>
     <script src="script/cashout.js"></script>
+    <script src="script/transactionmoney.js"></script>
 
 </body>
 </html>
